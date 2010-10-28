@@ -1,0 +1,4 @@
+- if flash[:notice]
+  %div#messenger{:class => "flasher"}= flash[:notice]
+- if flash[:error]
+  %div#error{:class => "flasher"}= flash[:error]
